@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl plugin="ghprb@1.7">
+  <serverAPIUrl>https://api.github.com</serverAPIUrl>
+  <username></username>
+  <password></password>
+  <accessToken>TokenHere</accessToken>
+  <adminlist>AdminListHere</adminlist>
+  <publishedURL></publishedURL>
+  <requestForTestingPhrase>Can one of the admins verify this patch?</requestForTestingPhrase>
+  <whitelistPhrase>.*add\W+to\W+whitelist.*</whitelistPhrase>
+  <okToTestPhrase>.*ok\W+to\W+test.*</okToTestPhrase>
+  <retestPhrase>.*test\W+this\W+please.*</retestPhrase>
+  <cron>*/5 * * * *</cron>
+  <unstableAs>FAILURE</unstableAs>
+  <autoCloseFailedPullRequests>false</autoCloseFailedPullRequests>
+  <msgSuccess>Test PASSED!</msgSuccess>
+  <msgFailure>Test failed.</msgFailure>
+  <jobs/>
+</org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl>

@@ -1,0 +1,6 @@
+.DS_Store
+.*.swp
+var/
+environments/
+.tm_properties
+.project
